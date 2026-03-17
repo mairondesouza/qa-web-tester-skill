@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (caso use no futuro)
+node_modules/
+
+# Claude Code local settings
+.claude/settings.local.json
