@@ -1,15 +1,33 @@
 {
-  "name": "QA Web Tester",
-  "version": "1.0.0",
-  "description": "Skill de QA autonomo para Claude Code — testa aplicacoes web e analisa UX/UI com sugestoes priorizadas por impacto/esforco.",
-  "author": "Mairo Vergara",
-  "license": "MIT",
+  "name": "qa-web-tester-skill",
+  "id": "qa-web-tester-skill",
+  "owner": {
+    "name": "mairondesouza"
+  },
+  "metadata": {
+    "description": "Skill de QA autonomo para Claude Code — testa aplicacoes web e analisa UX/UI com sugestoes priorizadas por impacto/esforco.",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
-      "id": "qa-web-tester",
-      "name": "QA Web Tester",
+      "name": "qa-web-tester",
+      "source": "./",
       "description": "Agente de QA Senior autonomo que testa funcionalidades web e analisa UX/UI com classificacao de impacto/esforco para usuarios leigos e avancados.",
-      "skills": ["qa-web-tester"]
+      "version": "1.0.0",
+      "author": {
+        "name": "mairondesouza"
+      },
+      "keywords": [
+        "qa",
+        "testing",
+        "web",
+        "ux",
+        "ui",
+        "playwright",
+        "automation"
+      ],
+      "category": "testing",
+      "strict": false
     }
   ]
 }
